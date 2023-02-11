@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+
+:root {
+  font-size: 16px;
+  font-family: 'Baloo Chettan 2', cursive;
+  --text-shadow: 0 0 .4vw #ffa300, 0 0 .6vw #9a27f7;
+  --transition-speed: 200ms;
+
+  --nav-text-primary: #b6b6b6;
+  --nav-text-secondary: #ececec;
+  --nav-bg-primary: #28285987;
+  --nav-bg-secondary: rgb(20, 20, 53);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+body { 
+  background-color: #080915;
+  /* background-color: red; */
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 0.4375rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6649b8;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  text-shadow: var(--text-shadow);
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    padding: 0 6rem;
+  }
+}
