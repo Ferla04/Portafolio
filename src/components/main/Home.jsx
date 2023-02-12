@@ -14,13 +14,13 @@ export const Home = () => {
             <i className='fa-solid fa-user' />
             CV
           </a>
-          <a className='fa-brands fa-github' href='' />
-          <a className='fa-brands fa-linkedin' href='' />
+          <a className='fa-brands fa-github' target='_blank' href='https://github.com/Ferla04' rel='noreferrer' />
+          <a className='fa-brands fa-linkedin' target='_blank' href='https://www.linkedin.com/in/ferla04' rel='noreferrer' />
         </div>
       </article>
 
       <article className='home-img'>
-        <img src='assets/hey.png' alt='me' />
+        <img src='/assets/hey.png' alt='me' />
       </article>
     </section>
   )
