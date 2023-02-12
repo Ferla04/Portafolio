@@ -3,6 +3,7 @@
 :root {
   font-size: 16px;
   font-family: 'Baloo Chettan 2', cursive;
+  --bg-page: #080915;
   --text-shadow: 0 0 .4vw #ffa300, 0 0 .6vw #9a27f7;
   --transition-speed: 200ms;
 
@@ -23,7 +24,7 @@ html {
 }
 
 body { 
-  background-color: #080915;
+  background-color: var(--bg-page);
   /* background-color: red; */
   color: #fff;
 }
@@ -42,8 +43,17 @@ h2 {
   text-shadow: var(--text-shadow);
 }
 
+a {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 769px) {
   body {
     padding: 0 6rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.4rem;
   }
 }
