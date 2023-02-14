@@ -1,13 +1,13 @@
 .contact {
-  margin-bottom: 80px;
-  height: 80vh;
+  align-items: center;
   border: 10px double #fff;
+  box-shadow: 0 0 .3vw #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
-  box-shadow: 0 0 .3vw #fff;
+  height: 80vh;
+  justify-content: center;
+  margin-bottom: 80px;
   position: relative;
 }
 
@@ -17,11 +17,11 @@
 
 .contact a {
   background-color: #fff;
-  box-shadow: 0 0 .5vw #fff;
   border-radius: 3px;
+  box-shadow: 0 0 .5vw #fff;
   color: var(--bg-page);
-  padding: 0.2rem 1rem;
   font-size: 1.125rem;
+  padding: 0.2rem 1rem;
   transition: box-shadow var(--transition-speed) ease;
 }
 
@@ -30,8 +30,8 @@
 }
 
 .contact img {
-  position: absolute;
   bottom: 10px;
   left: 20%;
+  position: absolute;
   width: 250px;
 }
