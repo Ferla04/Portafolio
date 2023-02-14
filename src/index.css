@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: var(--text-shadow);
   font-family: 'Poppins', sans-serif;
   padding: 1.25rem 0;
@@ -58,6 +58,10 @@ h2 {
 
 a {
   text-decoration: none;
+}
+
+img {
+  pointer-events: none;
 }
 
 @media only screen and (min-width: 769px) {
