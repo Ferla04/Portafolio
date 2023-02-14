@@ -22,13 +22,16 @@ export const AboutMe = () => {
 
         <article className='skills'>
           <h3>Habilidades</h3>
-          <div>
+          <article>
             {
-              skills.map(({ icon, color }) =>
-                <i key={icon} class={`fa-brands ${icon}`} style={{ color }} />
+              skills.map(({ name, icon }) =>
+                <div key={name} className='skills-item'>
+                  <div><span>{name}</span></div>
+                  <img src={icon} alt={name} className={name === 'ExpressJS' ? 'express' : ''} />
+                </div>
               )
             }
-          </div>
+          </article>
         </article>
       </div>
     </section>

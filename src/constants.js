@@ -5,17 +5,23 @@ export const routes = [
   { name: 'Contacto', id: 'contact', icon: 'fa-envelope' }
 ]
 
+const urlIcons = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/'
+
 export const skills = [
-  { icon: 'fa-html5', color: '#d84924' },
-  { icon: 'fa-css3-alt', color: '#008ed1' },
-  { icon: 'fa-js', color: '#ead41c' },
-  { icon: 'fa-bootstrap', color: '#6d11ea' },
-  { icon: 'fa-sass', color: '#c36291' },
-  { icon: 'fa-react', color: '#5ccfee' },
-  { icon: 'fa-node', color: '#89bb3c' },
-  { icon: 'fa-solid fa-database', color: '#da8604' },
-  { icon: 'fa-php', color: '#7175aa' },
-  { icon: 'fa-git-alt', color: '#e44d30' }
+  { name: 'HTML', icon: `${urlIcons}html5/html5-original.svg` },
+  { name: 'CSS', icon: `${urlIcons}css3/css3-original.svg` },
+  { name: 'Javascript', icon: `${urlIcons}javascript/javascript-plain.svg` },
+  { name: 'Typescript', icon: `${urlIcons}typescript/typescript-original.svg` },
+  { name: 'Bootstrap', icon: `${urlIcons}bootstrap/bootstrap-original.svg` },
+  { name: 'SASS', icon: `${urlIcons}sass/sass-original.svg` },
+  { name: 'React', icon: `${urlIcons}react/react-original.svg` },
+  { name: 'Redux-toolkit', icon: `${urlIcons}redux/redux-original.svg` },
+  { name: 'NodeJS', icon: `${urlIcons}nodejs/nodejs-original.svg` },
+  { name: 'ExpressJS', icon: `${urlIcons}express/express-original.svg` },
+  { name: 'SQL', icon: '/assets/sql.png' },
+  { name: 'MYSQL', icon: `${urlIcons}mysql/mysql-original.svg` },
+  { name: 'PHP', icon: `${urlIcons}php/php-original.svg` },
+  { name: 'GIT', icon: `${urlIcons}git/git-original.svg` }
 ]
 
 export const projects = [
