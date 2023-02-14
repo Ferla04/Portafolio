@@ -23,11 +23,11 @@
   font-weight: 400;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-shadow: 0 0 .3vw #fff;
   white-space: nowrap;
 }
 
 .galery-item h3, .galery-item span {
-  text-shadow: 0 0 .3vw #fff;
   width: 90%;
 } 
 
