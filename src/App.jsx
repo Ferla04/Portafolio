@@ -1,5 +1,4 @@
-import './App.css'
-import { AboutMe, Home, Navbar } from './components'
+import { AboutMe, Home, Navbar, Projects } from './components'
 
 const App = () => {
   return (
@@ -7,6 +6,7 @@ const App = () => {
       <Navbar />
       <Home />
       <AboutMe />
+      <Projects />
     </div>
   )
 }

@@ -17,3 +17,12 @@ export const skills = [
   { icon: 'fa-php', color: '#7175aa' },
   { icon: 'fa-git-alt', color: '#e44d30' }
 ]
+
+export const projects = [
+  { name: 'Calendar App', img: 'calendar.png', repo: 'https://github.com/Ferla04/Calendar-app', link: 'https://calendar-app-black.vercel.app', info: 'React - Redux-toolkit - NodeJS - ExpressJS - MongoDB - Bootstrap' },
+  { name: 'Journal App', img: 'journal.png', repo: 'https://github.com/Ferla04/Journal-app', link: 'https://journal-app-topaz-eight.vercel.app', info: 'React - Redux-toolkit - Material UI - Firebase' },
+  { name: 'Neweather', img: 'neweather.png', repo: 'https://github.com/juanerq/neweather', link: 'https://app-neweather.netlify.app', info: 'React' },
+  { name: 'Neweather', img: 'neweather.png', repo: 'https://github.com/juanerq/neweather', link: 'https://app-neweather.netlify.app', info: 'React' },
+  { name: 'Neweather', img: 'neweather.png', repo: 'https://github.com/juanerq/neweather', link: 'https://app-neweather.netlify.app', info: 'React' }
+  // { name: 'Snake', img: 'neweather.png', link: 'https://app-neweather.netlify.app', info: 'React' }
+]
