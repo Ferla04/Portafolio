@@ -58,12 +58,10 @@
 
 .skills-item {
   position: relative;
-  cursor: pointer;
 }
 
 .skills-item img {
   width: 4rem;
-  pointer-events: none;
 }
 
 .skills-item .express {
@@ -72,13 +70,13 @@
 }
 
 .skills-item div {
-  position: absolute;
-  top: -15px;
-  right: 0;
-  left: 0;
   display: flex;
   justify-content: center;
+  left: 0;
   opacity: 0;
+  position: absolute;
+  right: 0;
+  top: -15px;
   transition: opacity var(--transition-speed) linear;
 }
 
@@ -91,10 +89,10 @@
 
 .skills-item div::after{
   content: "";
-  position: absolute;
-  bottom: -19px;
   border: 10px solid;
   border-color:var(--nav-bg-primary) #0000 #0000 #0000;
+  bottom: -19px;
+  position: absolute;
 }
 
 .skills-item:hover div {
