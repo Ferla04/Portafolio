@@ -21,7 +21,7 @@ export const Home = () => {
       </article>
 
       <article className='home-img'>
-        <img src='/public/assets/hey.png' alt='me' />
+        <img src='../assets/hey.png' alt='me' />
       </article>
     </section>
   )

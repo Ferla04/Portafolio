@@ -9,7 +9,7 @@ export const Contact = () => {
       <h2>{title}</h2>
       <p>Si tienes alguna pregunta o estás interesad@ en trabajar conmigo, no dudes en ponerte en contacto.</p>
       <a href='mailto:fer.velas135@gmail.com'>Escribeme</a>
-      <img src='/public/assets/sayHi.png' alt='Hi' />
+      <img src='../assets/sayHi.png' alt='Hi' />
     </section>
   )
 }

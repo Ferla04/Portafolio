@@ -18,7 +18,7 @@ export const skills = [
   { name: 'Redux-toolkit', icon: `${urlIcons}redux/redux-original.svg` },
   { name: 'NodeJS', icon: `${urlIcons}nodejs/nodejs-original.svg` },
   { name: 'ExpressJS', icon: `${urlIcons}express/express-original.svg` },
-  { name: 'SQL', icon: '/public/assets/sql.png' },
+  { name: 'SQL', icon: '../assets/sql.png' },
   { name: 'MYSQL', icon: `${urlIcons}mysql/mysql-original.svg` },
   { name: 'PHP', icon: `${urlIcons}php/php-original.svg` },
   { name: 'GIT', icon: `${urlIcons}git/git-original.svg` }
