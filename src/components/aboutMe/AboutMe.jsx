@@ -26,7 +26,7 @@ export const AboutMe = () => {
             {
               skills.map(({ name, icon }) =>
                 <div key={name} className='skills-item'>
-                  <div><span>{name}</span></div>
+                  <div><span translate='no'>{name}</span></div>
                   <img src={icon} alt={name} className={name === 'ExpressJS' ? 'express' : ''} />
                 </div>
               )

@@ -2,7 +2,7 @@
 export const ProjectsItem = ({ name, img, repo, link, info }) => {
   return (
     <section className='galery-item'>
-      <h3>{name}</h3>
+      <h3 translate='no'>{name}</h3>
       <article className='galery-img'>
         <img src={`/assets/${img}`} alt={name} />
         <div className='galery-icon'>
@@ -10,7 +10,7 @@ export const ProjectsItem = ({ name, img, repo, link, info }) => {
           <a href={link} target='_blank' className='fa-solid fa-earth-americas' rel='noreferrer' />
         </div>
       </article>
-      <span>{info}</span>
+      <span translate='no'>{info}</span>
     </section>
   )
 }
