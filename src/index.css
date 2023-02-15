@@ -93,7 +93,7 @@ p {
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 490px) {
 
   :root {
     font-size: 13px;
@@ -102,4 +102,6 @@ p {
   .App > section {
     width: 80%;
   }
-} 
+}
+
+/* @media only screen and (max-width: 320px) */
