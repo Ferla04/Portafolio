@@ -85,7 +85,10 @@ p {
   }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 645px) {
 
+  :root {
+    font-size: 11px;
+  }
 
 }
