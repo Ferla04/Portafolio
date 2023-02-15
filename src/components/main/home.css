@@ -17,6 +17,10 @@
   width: 60%;
 }
 
+.home-info img {
+  display: none;
+}
+
 .home-info p, .home-networks  {
   width: 80%;
 }
@@ -116,5 +120,26 @@
 @media only screen and (max-width: 1024px) {
   .home-info p {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .home-img {
+    display: none;
+  }
+
+  .home-info {
+    gap: 1.25rem;
+    width: 100%;
+  }
+
+  .home-info p {
+    width: 100%;
+  }
+
+  .home-info img {
+    display: block;
+    width: 15.625rem;
+    align-self: center;
   }
 }

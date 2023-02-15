@@ -111,3 +111,14 @@
     width: 90%;
   }
 }
+
+@media only screen and (max-width: 490px) {
+  .aboutMe {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .aboutMe article {
+    width: 90%;
+  }
+}
