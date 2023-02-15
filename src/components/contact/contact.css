@@ -52,3 +52,9 @@
     left: 5%;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .contact img{
+    left: -15px;
+  }
+}
