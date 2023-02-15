@@ -1,10 +1,10 @@
 .contact {
   align-items: center;
-  border: 10px double #fff;
+  border: .625rem double #fff;
   box-shadow: 0 0 .3vw #fff;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   height: 80vh;
   justify-content: center;
   margin-bottom: 5rem;

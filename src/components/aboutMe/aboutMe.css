@@ -16,7 +16,7 @@
   backdrop-filter: blur(8px);
   background-color: var(--nav-bg-primary);
   margin: 1.875rem auto;
-  padding: 20px;
+  padding: 1.25rem;
   width: 70%;
 }
 
@@ -39,17 +39,17 @@
 }
 
 .skills h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
   text-shadow: 0 0 .3vw #fff;
 }
 
 .skills article {
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  margin: 20px auto;
+  margin: 1.25rem auto;
   width: 60%;
 }
 
@@ -63,7 +63,7 @@
 
 .skills-item .express {
   background-color: #fff;
-  padding: 8px;
+  padding: .5rem;
 }
 
 
@@ -104,5 +104,10 @@
   .aboutMe-text p, .skills article {
     width: 80%;
   }
+}
 
+@media only screen and (max-width: 800px) {
+  .aboutMe-text p, .skills article {
+    width: 90%;
+  }
 }
