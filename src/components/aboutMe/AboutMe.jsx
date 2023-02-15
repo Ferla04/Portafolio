@@ -14,8 +14,11 @@ export const AboutMe = () => {
           <div className='aboutMe-text'>
             <div className='line' />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequuntur voluptates quas eligendi reprehenderit similique possimus repudiandae fugiat, sequi, repellendus autem voluptate error dolore. Modi tenetur voluptatum quidem tempore mollitia?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, harum repellat. Officia et animi voluptate qui eaque quae! Aut enim commodi distinctio rem earum. Debitis facere reiciendis quia. Explicabo, quis!
+              Soy una programadora web autodidacta, apasionada por la tecnología y el crecimiento que ha experimentado el mundo de la programación.
+              Mi misión es crear soluciones web de alta calidad que estén enfocadas en mejorar la interacción del usuario con la tecnología.
+              He estado aprendiendo y mejorando mis habilidades por mi cuenta ya que pienso que la programación es una disciplina
+              en constante evolución. Estoy emocionada por la oportunidad de trabajar en nuevos entornos y colaborar con personas que compartan mis
+              intereses y pasión por el desarrollo.
             </p>
           </div>
         </article>

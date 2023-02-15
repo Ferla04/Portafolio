@@ -7,7 +7,7 @@ export const Contact = () => {
   return (
     <section id={id} className='contact'>
       <h2>{title}</h2>
-      <p>Aliquip proident exercitation proident occaecat officia qui aliquip est aliquip duis.</p>
+      <p>Si tienes alguna pregunta o estás interesad@ en trabajar conmigo, no dudes en ponerte en contacto.</p>
       <a href='mailto:fer.velas135@gmail.com'>Escribeme</a>
       <img src='/assets/sayHi.png' alt='Hi' />
     </section>
