@@ -142,10 +142,14 @@
     width: 15.625rem;
     align-self: center;
   }
+
+  .neon {
+    font-size: 35px;
+  }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .neon {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
