@@ -11,7 +11,7 @@ export const Home = () => {
         <img src='/assets/heyPhone.png' alt='me' />
         <p>¡Bienvenido a mi portafolio! Aquí encontrarás una muestra de mi trabajo y habilidades como desarrollador web, espero que disfrutes explorando asi como yo disfruté trabajando en estos proyectos.</p>
         <div className='home-networks'>
-          <a className='cv' target='_blank' href='/CV-Fernanda_Velasquez.pdf'>
+          <a className='cv' target='_blank' href='./CV-Fernanda_Velasquez.pdf'>
             <i className='fa-solid fa-user' />
             CV
           </a>
@@ -21,7 +21,7 @@ export const Home = () => {
       </article>
 
       <article className='home-img'>
-        <img src='../assets/hey.png' alt='me' />
+        <img src='./assets/hey.png' alt='me' />
       </article>
     </section>
   )
