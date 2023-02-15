@@ -9,7 +9,7 @@ export const Contact = () => {
       <h2>{title}</h2>
       <p>Aliquip proident exercitation proident occaecat officia qui aliquip est aliquip duis.</p>
       <a href='mailto:fer.velas135@gmail.com'>Escribeme</a>
-      <img src='/assets/sayHi.png' alt='' />
+      <img src='/assets/sayHi.png' alt='Hi' />
     </section>
   )
 }
