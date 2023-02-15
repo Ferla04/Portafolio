@@ -7,7 +7,7 @@
   gap: 20px;
   height: 80vh;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
   position: relative;
 }
 
@@ -30,8 +30,14 @@
 }
 
 .contact img {
-  bottom: 10px;
+  bottom: .625rem;
   left: 20%;
   position: absolute;
-  width: 250px;
+  width: 15.625rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact img  {
+    width: 13.75rem;
+  }
 }
