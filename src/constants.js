@@ -27,7 +27,7 @@ export const skills = [
 export const projects = [
   { name: 'Calendar App', img: 'calendar.png', repo: 'https://github.com/Ferla04/Calendar-app', link: 'https://calendar-app-black.vercel.app', info: 'React - Redux-toolkit - NodeJS - ExpressJS - MongoDB - Bootstrap' },
   { name: 'Journal App', img: 'journal.png', repo: 'https://github.com/Ferla04/Journal-app', link: 'https://journal-app-topaz-eight.vercel.app', info: 'React - Redux-toolkit - Material UI - Firebase' },
-  { name: 'Neweather', img: 'neweather.png', repo: 'https://github.com/juanerq/neweather', link: 'https://app-neweather.netlify.app', info: 'React - HTML -CSS' },
+  { name: 'Neweather', img: 'neweather.png', repo: 'https://github.com/Ferla04/neweather', link: 'https://ferla04.github.io/neweather/', info: 'React - HTML -CSS' },
   { name: 'Snake', img: 'snake.png', repo: 'https://github.com/Ferla04/SnakeProyect', link: 'https://ferla04.github.io/SnakeProyect/', info: 'Javascript - HTML - CSS' },
   { name: 'Bookstore', img: 'bookstore.png', repo: 'https://github.com/Ferla04/PHP/tree/main/bookstore', link: 'https://bookstore-ferla04.000webhostapp.com/bookstore/', info: 'PHP - Bootstrap' }
 ]
